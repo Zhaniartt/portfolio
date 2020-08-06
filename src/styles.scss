@@ -478,8 +478,49 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+
 }
 
+.img-boot{
+  max-width: 100%;
+  height: auto;
+  opacity: 0.2;
+  background-color:#03030a;
+  filter: grayscale(100%); 
+}
+.img-boot:hover{
+  opacity: 0.5;
+}
+.port-img{
+  opacity: 0.5;
+  border: 2px solid var(--gray-dark);
+  border-radius: 83%;
+}
+.filters{
+  margin-left: -4px;
+    margin-top: 20px;
+}
+.filters li {
+  display: inline-block;
+  padding: 8px 5px;
+  background-color: #313131;
+  color: #999;
+  border-width: 1px 1px 2px 1px;
+  border-style: solid;
+  border-color: #222;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-family: MontSerrat,Tahoma,Arial,sans-serif;
+  font-weight: 700;
+  font-size: .75em;
+  line-height: 1em;
+  box-shadow: 1px 1px 0 rgba(0,0,0,.25);
+  margin: 3px;
+  opacity: 1;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
